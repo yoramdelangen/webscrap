@@ -1,0 +1,6 @@
+build/
+dist/
+webscrap.egg-info
+*.pyc
+*.swp
+*.egg
