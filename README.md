@@ -13,7 +13,14 @@ There is still alot todo and everytime I'm using this package I'll try to improv
 - Example code
 - ....
 
-## Configs
+## Common scenario's
+There are different scenario's for scraping data and each of these scenario's the package tend to cover:
+1. Single page with recurring records (overview)
+2. Overview page (with pagination) with detail pages and scrape only data from the detail pages.
+3. Pages with `<table />` data.
+4. JSON api/payload.
+
+## Configs/Configuration
 Within the `mapping` object we define the properties.
 
 These properties are defined by default:
