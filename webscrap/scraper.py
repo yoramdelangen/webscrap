@@ -104,7 +104,7 @@ class Scraper():
                     symbols = self.getTranslateSymbols_()
                     grp[f] = grp[f].apply(lambda x: x.translate(symbols))
 
-            self.df =  pd.concat([self.df, grp], sort=False)
+            self.df = pd.concat([self.df, grp], sort=False)
 
         return True
 
