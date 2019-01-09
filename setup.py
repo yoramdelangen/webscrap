@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/yoramdelangen/webscrap",
     packages=setuptools.find_packages(),
+    install_requires=['requests-html', 'dpath', 'sqlalchemy'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

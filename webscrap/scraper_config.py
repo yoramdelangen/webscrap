@@ -6,10 +6,13 @@ class ScraperConfig():
     config = {}
     attribute_selector = '@'
 
-    def __init__(self, file):
-        self.config = self.readConfig_(file)
+    def __init__(self, config):
+        if type(config) is dict:
+            self.config = config
+        else:
+            self.config = self.readConfig_(config)
 
-    def readConfig_(self, file):
+    def readConfig_(self, file: str):
         with open(path.abspath(file+'.json'), 'r') as fp:
             return json.load(fp)
 

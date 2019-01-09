@@ -1,6 +1,12 @@
 build/
+
+# Setuptools distribution folder.
 dist/
-webscrap.egg-info
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# Compiled python modules.
 *.pyc
 *.swp
 *.egg

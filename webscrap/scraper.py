@@ -1,4 +1,4 @@
-from scraper_config import ScraperConfig as Config
+from .scraper_config import ScraperConfig as Config
 import pandas as pd
 from requests_html import HTMLSession
 from dpath.util import get as dget
